@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Javanese Batik — Home</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html">Javatique.</a>
+      <button id="nav-toggle" class="nav-toggle" aria-label="Open menu">☰</button>
+      <nav id="main-nav" class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="history.html">History</a>
+        <a href="motifs.html">Motifs</a>
+        <a href="making.html">How It's Made</a>
+        <a href="modern.html">Modern & Quiz</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container content">
+    <h2>Modern Use & Conservation</h2>
+    <p>
+      Modern designers mix traditional motifs with contemporary styles, bringing batik onto runways and into everyday fashion.
+      Education programs, museums, and UNESCO recognition help conserve techniques and cultural meaning.
+    </p><br>
+
+    <section>
+  <ul>
+    <li>
+      <a href="https://ich.unesco.org/en/RL/batik-a-masterpiece-of-the-oral-and-intangible-heritage-of-humanity-00170" target="_blank">
+        UNESCO – Batik, a Masterpiece of the Oral and Intangible Heritage of Humanity
+      </a>
+    </li>
+    <li>
+      <a href="https://exhibitions.asianart.org/exhibitions/batik-spectacular-textiles-of-java/" target="_blank">
+        Asian Art Museum – Batik: Spectacular Textiles of Java
+      </a>
+    </li>
+    <li>
+      <a href="https://www.thejakartapost.com/life/2021/10/02/the-art-of-batik.html" target="_blank">
+        The Jakarta Post – The Art of Batik
+      </a>
+    </li>
+  </ul>
+</section>
+
+    <h2>Gallery.</h2>
+    <div class="gallery-grid">
+      <img src="https://th.bing.com/th/id/R.a723af7cd79dca5f49b3351df45672a9?rik=tUDNzgX2cVjRqQ&riu=http%3a%2f%2fbergaya.id%2fwp-content%2fuploads%2f2020%2f03%2fMotif-Batik-Parang-Tuding.jpg&ehk=CNQCtGoL8g9il5lCExL%2fRGzkGGLn7%2fwAztyAXwa2ayY%3d&risl=&pid=ImgRaw&r=0" alt="Parang example">
+      <img src="https://cdn.vectorstock.com/i/preview-1x/69/73/elegant-circle-art-work-motifs-on-kawung-batik-vector-31156973.jpg" alt="Kawung example">
+      <img src="https://th.bing.com/th/id/R.2ba80b46abeb3600caf812dcf8da14db?rik=4oLV4P%2fWPN4dtg&riu=http%3a%2f%2fbergaya.id%2fwp-content%2fuploads%2f2020%2f03%2fCorak-Batik-Sidomukti.jpg&ehk=MUbVWuYM3haf7k%2fvRp7lQ2fucYLibHShSgkgDZqxeo0%3d&risl=&pid=ImgRaw&r=0" alt="Sido Mukti example">
+      <img src="https://static.vecteezy.com/system/resources/previews/057/247/732/non_2x/batik-truntum-floral-pattern-color-background-illustration-free-vector.jpg" alt="Truntum example">
+      <img src="https://cdn.shopify.com/s/files/1/0223/1261/files/Sekar-Jagad-Batik-Java-Indonesia_1024x1024.jpg?v=1491450734" alt="Sekar Jgad example example">
+    </div>
+
+
+    <h2>Mini Quiz — test what you learned</h2>
+    <form id="quiz-form" class="quiz-form" onsubmit="return false;">
+      <div class="q">
+        <p>1) Which motif is often associated with royalty and resilience?</p>
+        <label><input type="radio" name="q1" value="a"> Kawung</label>
+        <label><input type="radio" name="q1" value="b"> Parang</label>
+        <label><input type="radio" name="q1" value="c"> Mega Mendung</label>
+      </div>
+
+      <div class="q">
+        <p>2) What does Truntum symbolize?</p>
+        <label><input type="radio" name="q2" value="a"> Growing love</label>
+        <label><input type="radio" name="q2" value="b"> Purity</label>
+        <label><input type="radio" name="q2" value="c"> Royal authority</label>
+      </div>
+
+      <div class="q">
+        <p>3) Which batik technique is hand-drawn with a canting?</p>
+        <label><input type="radio" name="q3" value="a"> Batik cap</label>
+        <label><input type="radio" name="q3" value="b"> Batik tulis</label>
+        <label><input type="radio" name="q3" value="c"> Batik printing</label>
+      </div>
+
+      <div class="q">
+        <p>4) Mega Mendung originates mainly from which style?</p>
+        <label><input type="radio" name="q4" value="a"> Court (kraton)</label>
+        <label><input type="radio" name="q4" value="b"> Coastal (Pekalongan/Cirebon)</label>
+        <label><input type="radio" name="q4" value="c"> Foreign imports</label>
+      </div>
+
+      <p><button id="check-quiz" class="btn">Check Answers</button></p>
+      <div id="quiz-result" class="quiz-result" aria-live="polite"></div>
+    </form>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Javanese Batik — Amal Hanis</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
